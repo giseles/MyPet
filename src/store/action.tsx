@@ -7,10 +7,9 @@ export const addAction = (data) => {
     type: ADD
   }
 };
-
 export const delAction = (data) => {
   return {
     data,
     type: DELETE
   }
-}
+};
